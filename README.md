@@ -27,11 +27,11 @@ Helm (Kubernetes package manager)
 
  Step-by-Step Deployment
  
-1️create a simple app using python
+# 1️create a simple app using python
 
 cd YOUR_REPO
 
-2️⃣ Build & push Docker image to ECR
+# 2️⃣ Build & push Docker image to ECR
 
 Authenticate with ECR:
 
@@ -49,7 +49,7 @@ Push to ECR:
 
 docker push <account_id>.dkr.ecr.us-east-1.amazonaws.com/simple-python-app:latest
 
-3️⃣ Provision EKS using Terraform
+# 3️⃣ Provision EKS using Terraform
 
 Navigate to your Terraform folder:
 
@@ -70,7 +70,7 @@ This creates:
 
 ✅ IAM roles and security groups
 
-4️⃣ Update kubeconfig to connect to EKS
+# 4️⃣ Update kubeconfig to connect to EKS
 
 aws eks --region us-east-1 update-kubeconfig --name <cluster_name>
 
@@ -78,7 +78,7 @@ Test connectivity:
 
 kubectl get nodes
 
-5️⃣ Deploy using Helm
+# 5️⃣ Deploy using Helm
 
 Navigate to your Helm chart folder:
 
