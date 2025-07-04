@@ -1,5 +1,5 @@
-🚀 Simple Python App: Docker + ECR + EKS with Terraform & Helm
-📜 Overview
+ Simple Python App: Docker + ECR + EKS with Terraform & Helm
+ 
 This project demonstrates:
 
 ✅ A simple Python app (FastAPI/Flask)
@@ -7,7 +7,7 @@ This project demonstrates:
 ✅ Deployed on AWS EKS using Helm
 ✅ Infrastructure provisioned with Terraform (VPC, EKS cluster, Node Groups, IAM)
 
-🛠️ Tech Stack
+🛠Tech Stack
 Python (FastAPI/Flask)
 
 Docker
@@ -20,28 +20,9 @@ Terraform (infrastructure as code)
 
 Helm (Kubernetes package manager)
 
-🗂️ Project Structure
 
-.
-├── app/
-│   └── main.py             # Python FastAPI/Flask app
-│   └── requirements.txt
-├── Dockerfile
-├── helm-chart/
-│   └── Chart.yaml
-│   └── values.yaml
-│   └── templates/
-│       └── deployment.yaml
-│       └── service.yaml
-├── terraform/
-│   └── main.tf
-│   └── vpc.tf
-│   └── eks.tf
-│   └── variables.tf
-│   └── outputs.tf
-└── README.md
-🚀 Step-by-Step Deployment
-1️⃣create a simple app using python
+ Step-by-Step Deployment
+1️create a simple app using python
 cd YOUR_REPO
 2️⃣ Build & push Docker image to ECR
 Authenticate with ECR:
