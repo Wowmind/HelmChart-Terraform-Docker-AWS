@@ -1,0 +1,16 @@
+name: myapp
+replica: 3
+image:
+  containerName: webapp
+  name: 908027403160.dkr.ecr.us-east-1.amazonaws.com/myapp-repo
+  tag: latest
+port: 5002
+request: 
+  memory: 20Mi
+  cpu: 50m
+limits:
+  memory: 128Mi
+  cpu: 100m
+type: LoadBalancer
+
+
