@@ -101,7 +101,7 @@ Verify deployment:
 
 kubectl get pods -n simple-app
 
-6️⃣ Access the Application
+# 6️⃣ Access the Application
 
 Retrieve the LoadBalancer URL:
 
