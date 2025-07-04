@@ -1,4 +1,4 @@
- Simple Python App: Docker + ECR + EKS with Terraform & Helm
+# Simple Python App: Docker + ECR + EKS with Terraform & Helm
  
 This project demonstrates:
 
