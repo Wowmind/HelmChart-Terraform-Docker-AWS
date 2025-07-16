@@ -61,7 +61,9 @@ jobs:
         uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Init
-        run: terraform init
+        run: |
+          cd terraform
+          terraform init
 
       - name: Terraform Format Check
         run: terraform fmt -check
@@ -91,6 +93,7 @@ jobs:
 
       - name: Update kubeconfig
         run: |
+          cd ..
           aws eks update-kubeconfig --region $AWS_REGION --name $EKS_CLUSTER
 
       - name: Set up Helm
