@@ -113,4 +113,5 @@ Copy the EXTERNAL-IP and open it in your browser to access the app.
 To delete resources and avoid unnecessary costs:
 
 helm uninstall simple-python-app -n simple-app
+
 terraform destroy -auto-approve
