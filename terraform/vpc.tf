@@ -38,7 +38,7 @@ resource "aws_subnet" "public" {
 }
 
 
-# Private Subnets
+# Private Subnet
 
 resource "aws_subnet" "private" {
   count             = 2
