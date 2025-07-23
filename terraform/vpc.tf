@@ -138,7 +138,7 @@ resource "aws_security_group" "eks_node_sg" {
     self        = true
   }
 
-  # Allow control plane to communicate with nodes (HTTPS)
+  # Allow control plane to communicate with nodes(HTTPS)
   ingress {
     description = "Allow EKS control plane to communicate with worker nodes (port 443)"
     from_port   = 443

@@ -65,8 +65,8 @@ jobs:
           cd terraform
           terraform init
 
-      - name: Terraform Format Check
-        run: terraform fmt -check
+      - name: Terraform Format Check 
+        run: terraform fmt -check -recursive
         working-directory: terraform
 
       - name: Terraform Plan
