@@ -1,4 +1,4 @@
-# Simple Python App: Docker + ECR + EKS with Terraform & Helm
+# Simple Python App: Github Action(CI/CD) - Docker + ECR + EKS with Terraform & Helm
  
 This project demonstrates:
 
