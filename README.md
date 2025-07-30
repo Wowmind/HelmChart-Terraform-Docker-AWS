@@ -24,6 +24,7 @@ Terraform (infrastructure as code)
 
 Helm (Kubernetes package manager)
 
+CI/CD integration using Github Action
 
  Step-by-Step Deployment
  
@@ -108,6 +109,8 @@ Retrieve the LoadBalancer URL:
 kubectl get svc -n simple-app
 
 Copy the EXTERNAL-IP and open it in your browser to access the app.
+
+Create Github Action workflow for continuous integration of the application.
 
 ✅ Cleaning Up
 To delete resources and avoid unnecessary costs:
