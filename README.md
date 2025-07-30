@@ -110,7 +110,7 @@ kubectl get svc -n simple-app
 
 Copy the EXTERNAL-IP and open it in your browser to access the app.
 
-Create Github Action workflow for continuous integration of the application.
+# Create Github Action workflow for continuous integration of the application.
 
 ✅ Cleaning Up
 To delete resources and avoid unnecessary costs:
